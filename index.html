@@ -17,39 +17,57 @@
     <div class="container-fluid background">
         <!-- this container should be dark and cover entire page. add a minimum hieght of 95vh -->
 
-        <div class="container-lg myheader">
 
-            <nav class="navbar navbar-expand-lg navbar-light myheader">
-                <!--  bg-dark -->
-                <a class="navbar-brand" href="https://github.com/GormTheWyrm">Github Page of Geordin Soucie</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/">LinkedIn
-                                Profile<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Portfolio Page <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Play! <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Other Media <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+        <div class="my-header">
+            <h3>GitHub Pages, Geordin Soucie</h3>
+            <h5 style="padding-left: 2vw;">GormTheWyrm</h5>
         </div>
+        <!-- <div class="container-fluid myheader"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <!--  bg-dark -->
+            <!-- I should round this out... -->
+            <a class="navbar-brand" href="https://github.com/GormTheWyrm">Github Profile</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/">LinkedIn
+                            Profile<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Portfolio Page <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Play! <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Other Media <span class="sr-only">(current)</span></a>
+                    </li>                 
+                </ul>
+            </div>
+            <!-- <hr> -->
+        </nav>
+        
+        <!-- </div> -->
         <div class="container-lg main-background">
-            <div class="pusher"></div>
-            <h3>Welcome to my Github pages.</h3>
-            <div class="row welome-div">
+            <div class="row welcome-div">
+                <h5>Welcome to My GitHub Pages Profile.</h5>
+                <p>For those here as prosective employers I have outlined my experience below in the blue section. <br>
+                    The red container contains less technical explainations for all of my friends, family and more casual visitors. <br>
+                    I also included a few things to play with in that section.
+                    <br>
+                    If you want to know more, the bottom section has a table of my work, listed by technologies used.
+                    <!-- perhaps I should list them by something else... front end, back end... 
+                        figure out a way to organize and explain that! 
+                    -->
+                </p>
+            </div>
+            <div class="row">
                 <div class="col-md left-div">
                     <h4><em>Employers</em></h4>
                     <!-- add a decent photo of me here -->
@@ -107,19 +125,56 @@
                 </div>
             </div>
             <div class="row my-sections">
-                <div class="col-lg employer-div">
+                <div class="col-lg repo-div">
                     <!-- linked in, profile page, quick blurb about my abilities -->
+                    <!-- post details of my work! -->
+                    <h4>More</h4>
+                    <p>Here are some </p>
+                    <!-- tables with deployed products and repos side by side! -->
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="col-lg casual-div">
-
+                    <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
                 </div>
             </div>
 
-            <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
 
 
 
 
+            <!-- NOTES:
+need 4 repos and would like to link to deployed projects as welll
+
+-->
 
 
         </div>
@@ -176,7 +231,6 @@
         //     // change % to new number and I can add more...
         // })
     </script>
-
 </body>
 
 </html>
