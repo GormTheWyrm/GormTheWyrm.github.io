@@ -1,1 +1,60 @@
+.background{ background-color: black;
+    min-height: 100vh;
+    padding-top: 1vh;
+}
+.main-background{
+    /* background-color: rgb(152, 175, 199); */
+    /* background-color: lightslategrey; */
+    background-color: slategrey;
+    min-height: 98vh;
+    
+}
+.myheader{
+/* background-color: darkslategrey; */
+/* background-color: slategrey; */
+/* teal? */
+background-color: dimgray;
+/* border: darkslategray solid; */
 
+/* margin-top: 5vh; */
+padding-top: 5vh;
+padding-bottom: 5vh;
+padding-left: 4vw;
+}
+.welome-div{
+/* background-color: forestgreen; */
+
+}
+.left-div{
+    
+}
+.right-div{
+
+}
+.my-sections{
+
+}
+.employer-div{
+    background-color: grey;
+}
+.casual-div{
+    background-color: indianred;
+}
+.development-div{
+background-color: indianred;
+}
+.artwork-div{
+
+background-color: plum;
+}
+.square-sm{
+    background-color: dimgray;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 26px;
+    /* padding-bottom: 30px; */
+}
+
+/* background-color: cadetblue; */

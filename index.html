@@ -1,24 +1,137 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Geordin Soucie Github Pages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GormTheWyrm</title>
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- add  astylesheet here -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1> Geordin Soucie</h1>
-    <!-- <img src="MT.JPG" alt="Expedition Picture" height="140" width="200" class="rotateme"/> <!-- width and hieght screwed up-->
-    <style>
-        .rotateme {
-            -webkit-transform: rotate(90deg);
-            -moz-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            -o-transform: rotate(90deg);
-            transform: rotate(90deg);
-        }
-    </style> 
-    <h2>Bio</h2>
-    <h2> </h2>
+    <!-- design intent; 3 sections... maybe four...
+        dark page with a slightly lighter main container
+...header?
+    Top should be a quick welcome blurbe
+    Left Side dedicated to employers. Should take them to a profile page
 
+    -->
+
+    <div class="container-fluid background">
+        <!-- this container should be dark and cover entire page. add a minimum hieght of 95vh -->
+
+        <div class="container-lg myheader">
+            <!-- header at top of page... probably has my name in it -->
+            <h1>Geordin Soucie's Github Page</h1>
+            <h2> Userpage of GormTheWyrm</h2>
+            <!-- small profile picture at top right would look good -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Github Page of Geordin Soucie</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class="container-lg main-background">
+            <div class="pusher"></div>
+            <div class="row welome-div">
+                <div class="col-md left-div">
+                    <h3>Welcome to my Github pages.</h3>
+                    <p>The layout is simple. Below this container are several sections.
+                        Each section is color coded.
+                        <strong>Sections</strong>
+                    <ol>
+                        <li>Employers</li>
+                        <li>Family and Friends</li>
+                        <li>Other Developers</li>
+                        <li>Artwork</li>
+                    </ol>
+                    The Employer section will have links to work I've done and information on my skills.
+                    <!-- I need to ask career services what I should put on my career based profile- examples of working prjects yes, but what about code? -->
+                    The Family and Friends Section will have examples of deployed programs that are more fun to play
+                    with. Go here if you are bored and want something to do.
+                    The Developers Section will have links to noteworthy github repositories that might not interest
+                    casual viewers.
+                    The Artwork Section should have links to personal projects that are
+                    not necessarily code related.
+                    </p>
+                </div>
+                <div class="col-md right-div">
+                    <!-- add a decent photo of me here -->
+                </div>
+            </div>
+            <div class="row my-sections">
+                <div class="col-lg employer-div">
+                    <!-- linked in, profile page, quick blurb about my abilities -->
+                </div>
+                <div class="col-lg casual-div">
+                    <!-- I need to create a cool program for people to play with, some games and etc -->
+                    <!-- create a box that changes colors -->
+                    <h4>What is web development, anyway?</h4>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="square-sm" id="sq-1">Click Me!</div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="square-sm" id="sq-2">Click Me!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-sections">
+                <div class="col-lg development-div"></div>
+                <!-- I dont have anythign cool to put here... yet, but open source projects I am working on would be idea -->
+                <div class="col-lg artwork-div"></div>
+            </div>
+
+            <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <script>
+    //this should shange the squares colors when touched
+    //maybe have the square declare its color with text inside...
+    </script>
 
 </body>
+
+</html>
