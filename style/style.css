@@ -42,7 +42,10 @@ padding-bottom: 3vh;
 
 }
 
-
+.casual-div{
+    padding-bottom: 2vh;
+    /* temporary footer */
+}
 .development-div{
 background-color: indianred;
 }
