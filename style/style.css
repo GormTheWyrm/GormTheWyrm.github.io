@@ -14,32 +14,30 @@
 /* background-color: slategrey; */
 /* teal? */
 background-color: dimgray;
+/* background-color: #4aaaa5; */
 /* border: darkslategray solid; */
 
 /* margin-top: 5vh; */
-padding-top: 5vh;
+/* padding-top: 5vh;
 padding-bottom: 5vh;
-padding-left: 4vw;
+padding-left: 4vw; */
 }
 .welome-div{
 /* background-color: forestgreen; */
 
 }
 .left-div{
-    
+    background-color: cornflowerblue;
 }
 .right-div{
+    background-color: indianred;
 
 }
 .my-sections{
-
-}
-.employer-div{
     background-color: grey;
 }
-.casual-div{
-    background-color: indianred;
-}
+
+
 .development-div{
 background-color: indianred;
 }
@@ -58,3 +56,21 @@ background-color: plum;
 }
 
 /* background-color: cadetblue; */
+
+
+
+
+/*  */
+.red-text{
+    color: darkred;
+}
+.blue-text{
+    color: darkblue;
+}
+a:link, a:visited, a {
+    /* color: #4aaaa5; */
+    /* color: #575753; */
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}

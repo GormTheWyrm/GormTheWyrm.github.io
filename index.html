@@ -8,30 +8,20 @@
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- add  astylesheet here -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 
 </head>
 
 <body>
-    <!-- design intent; 3 sections... maybe four...
-        dark page with a slightly lighter main container
-...header?
-    Top should be a quick welcome blurbe
-    Left Side dedicated to employers. Should take them to a profile page
-
-    -->
 
     <div class="container-fluid background">
         <!-- this container should be dark and cover entire page. add a minimum hieght of 95vh -->
 
         <div class="container-lg myheader">
-            <!-- header at top of page... probably has my name in it -->
-            <h1>Geordin Soucie's Github Page</h1>
-            <h2> Userpage of GormTheWyrm</h2>
-            <!-- small profile picture at top right would look good -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Github Page of Geordin Soucie</a>
+
+            <nav class="navbar navbar-expand-lg navbar-light myheader">
+                <!--  bg-dark -->
+                <a class="navbar-brand" href="https://github.com/GormTheWyrm">Github Page of Geordin Soucie</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -40,55 +30,63 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/">LinkedIn
+                                Profile<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Portfolio Page <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Play! <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Other Media <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
-
                 </div>
             </nav>
         </div>
         <div class="container-lg main-background">
             <div class="pusher"></div>
+            <h3>Welcome to my Github pages.</h3>
             <div class="row welome-div">
                 <div class="col-md left-div">
-                    <h3>Welcome to my Github pages.</h3>
-                    <p>The layout is simple. Below this container are several sections.
-                        Each section is color coded.
-                        <strong>Sections</strong>
-                    <ol>
-                        <li>Employers</li>
-                        <li>Family and Friends</li>
-                        <li>Other Developers</li>
-                        <li>Artwork</li>
-                    </ol>
-                    The Employer section will have links to work I've done and information on my skills.
+                    <h4><em>Employers</em></h4>
+                    <!-- add a decent photo of me here -->
+                    <p>First off, thank you for your interest.
+                        If you are here looking for a prospective employee I reccomend the first link below.
+                        That should take you to a more extensive portfolio of my work as well as a deeper explaination
+                        of my capabilities.
+                        For those seeking to save time a short summary of my capabilities lies below.
+                        <br>
+                        <strong>Important Links</strong>
+                    <div class="row red-text">
+                        <ol>
+                            <li><a href="">Employer Specific Portfolio Page</a></li>
+                            <li><a href=""></a>Family and Friends</a></li>
+                            <li><a href=""></a>Other Developers</a></li>
+                            <li><a href=""></a>LinkedIn</a></li>
+                        </ol>
+                    </div>
+                    This Employer section will have links to work I've done and information on my skills.
                     <!-- I need to ask career services what I should put on my career based profile- examples of working prjects yes, but what about code? -->
-                    The Family and Friends Section will have examples of deployed programs that are more fun to play
-                    with. Go here if you are bored and want something to do.
-                    The Developers Section will have links to noteworthy github repositories that might not interest
-                    casual viewers.
-                    The Artwork Section should have links to personal projects that are
-                    not necessarily code related.
+                    I am a full stack developer with knowledge of HTML, Javascript, Node.JS, mySQL, noSQL MongoDB,
+                    Mongoose
+                    <br>...
+                    <!-- redo this with info on my experience and some links -->
+
                     </p>
                 </div>
                 <div class="col-md right-div">
-                    <!-- add a decent photo of me here -->
-                </div>
-            </div>
-            <div class="row my-sections">
-                <div class="col-lg employer-div">
-                    <!-- linked in, profile page, quick blurb about my abilities -->
-                </div>
-                <div class="col-lg casual-div">
+                    <h4><em>Friends, Family and Other Casual Visitors</em></h4>
                     <!-- I need to create a cool program for people to play with, some games and etc -->
                     <!-- create a box that changes colors -->
-                    <h4>What is web development, anyway?</h4>
+                    <h5>What does Geordin do, anyway?</h5>
+                    <p>I am a full stack developer. That means I am fully capable of creating a website.
+                        From putting words on a page and manipualting what goes where on a website, to connecting your
+                        search engine to the data behind the website,
+                        to making buttons and other lttle effects on the site work.
+                    </p>
                     <div class="row">
                         <div class="col-sm">
                             <div class="square-sm" id="sq-1">Click Me!</div>
@@ -97,12 +95,24 @@
                             <div class="square-sm" id="sq-2">Click Me!</div>
                         </div>
                     </div>
+                    <p>Here are some additional things I've worked on, fun projects that you can play with.</p>
+                    <div class="row blue-text">
+                        <ol>
+                            <li><a href="">Employer Specific Portfolio Page</a></li>
+                            <li><a href=""></a>Family and Friends</a></li>
+                            <li><a href=""></a>Other Developers</a></li>
+                            <li><a href=""></a>LinkedIn</a></li>
+                        </ol>
+                    </div>
                 </div>
             </div>
             <div class="row my-sections">
-                <div class="col-lg development-div"></div>
-                <!-- I dont have anythign cool to put here... yet, but open source projects I am working on would be idea -->
-                <div class="col-lg artwork-div"></div>
+                <div class="col-lg employer-div">
+                    <!-- linked in, profile page, quick blurb about my abilities -->
+                </div>
+                <div class="col-lg casual-div">
+
+                </div>
             </div>
 
             <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
@@ -128,8 +138,43 @@
         crossorigin="anonymous"></script>
 
     <script>
-    //this should shange the squares colors when touched
-    //maybe have the square declare its color with text inside...
+        //this should shange the squares colors when touched
+        //maybe have the square declare its color with text inside...
+        // id = sq-1 and sq-2
+        let box1 = $("#sq-1");
+        let box2 = $("#sq-2");
+        let count1 = 0;
+        let count2 = 0;
+
+        box1.on("click", function () {
+            count1++;
+            if (count1 % 3 == 0) {
+                box1.css("background-color", "blue");
+            } else if (count1 % 3 == 1) {
+                box1.css("background-color", "red");
+            } else if (count1 % 3 == 2) {
+                box1.css("background-color", "green");
+            }
+            // change % to new number and I can add more...
+        })
+
+        // box2.on("click", function () {
+        //     count2++;
+        //     if (count2 % 3 == 0) {
+        //         box2.css("border-radius", "50%");
+        //     } else if (count2 % 3 == 1) {
+        //         // box2.css("height", "10px");
+        //         // box2.css("width", "20px");
+        //     } else if (count2 % 3 == 2) {
+        //         box2.css("border-radius", "0%");
+        //         box2.css("border-left", "39px solid transparent");
+        //         box2.css("border-right", "39px solid transparent");
+        //         box2.css("border-top", "80px solid blue");
+        //         // box2.css("background-color", "none");
+        //         box2.css("opacity", "1");
+        //     }
+        //     // change % to new number and I can add more...
+        // })
     </script>
 
 </body>
