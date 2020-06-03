@@ -108,9 +108,9 @@ a:link, a:visited, a {
     font-weight: 500;
 }
 hr{
-color: paleturquoise;
+/* color: paleturquoise;
 height: 3px;
-width: 20%;
+width: 20%; */
 }
 
 .repo-div{
