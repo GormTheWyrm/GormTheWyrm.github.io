@@ -1,3 +1,9 @@
+p{
+    font-size: large;
+}
+li{
+    font-size: larger;
+}
 .background{ background-color: black;
     min-height: 100vh;
     padding-top: 1vh;
@@ -112,4 +118,5 @@ width: 20%;
 }
 a:hover{
     background-color: darkslategray;
+    color: darkred;
 }

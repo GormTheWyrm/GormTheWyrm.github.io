@@ -8,7 +8,7 @@
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
 
 </head>
 
@@ -20,47 +20,61 @@
 
 
         <div class="my-header container-xl">
-            <h3>Geordin Soucie, Web Development</h3>
-            <!-- <h5 style="padding-left: 2vw;">@GormTheWyrm</h5> -->
-            <!-- add github profle pic here? ...or a profile thumbnail -->
+            <div class="row">
+                <div class="col-md-11">
+                    <h3>Geordin Soucie, Web Development</h3>
+                    <!-- <h5 style="padding-left: 2vw;">@GormTheWyrm</h5> -->
 
-            <!-- <div class="container-fluid myheader"> -->
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkslategrey;">
-                <!--  bg-dark bg-secondary-->
-                <!-- I should round this out... -->
-                <a class="navbar-brand" href="https://github.com/GormTheWyrm">Github Profile</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <!-- <div class="container-fluid myheader"> -->
+                    <nav class="navbar navbar-expand-lg navbar-dark"
+                        style="background-color: darkslategrey; padding-left: 15px;">
+                        <!--  bg-dark bg-secondary-->
+                        <!-- I should round this out... -->
+                        <a class="navbar-brand" href="https://github.com/GormTheWyrm" target="_blank">Github Profile</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/">LinkedIn
-                                Profile<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link"
-                                href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html">Portfolio Page
-                                <span class="sr-only">(current)</span></a>
-                            <!-- create a new prtflio on this repo -->
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link"
-                                href="https://gormthewyrm.github.io/BootstrapProfilePage/index.html">About Me <span
-                                    class="sr-only">(current)</span></a>
-                            <!-- more info about myself... create a new page for it? -->
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Other Media <span class="sr-only">(current)</span></a>
-                            <!-- this could open other social media or link to other online presence sites -->
-                            <!-- consider a drop down or adding links directly to navbar -->
-                        </li>
-                    </ul>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/"
+                                        target="_blank">LinkedIn
+                                        Profile<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link"
+                                        href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html"
+                                        target="_blank">Portfolio Page
+                                        <span class="sr-only">(current)</span></a>
+                                    <!-- create a new portfolio on this repo -->
+                                    <!-- open link on same page once this is connected -->
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link"
+                                        href="https://gormthewyrm.github.io/BootstrapProfilePage/index.html"
+                                        target="_blank">About Me <span class="sr-only">(current)</span></a>
+                                    <!-- I plan to replace this -->
+                                    <!-- open link on same page once this is connected -->
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#" target="_blank">Other Media <span
+                                            class="sr-only">(current)</span></a>
+                                    <!-- this could open other social media or link to other online presence sites -->
+                                    <!-- consider a drop down or adding links directly to navbar -->
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <hr> -->
+                    </nav>
                 </div>
-                <!-- <hr> -->
-            </nav>
+                <!-- <div class="col-sm-2">
+                    <img src="assets/images/GormyDragon.png" alt="Profle Picture" style="height: 120px; width: 120px;">
+                    turns out this didnt look good
+                </div> -->
+            </div>
         </div>
 
         <!-- </div> -->
@@ -69,16 +83,24 @@
             <div class="row ">
                 <div class="col-12 welcome-div">
                     <h5>Welcome to My GitHub Pages Portal.</h5>
-                    <p>For those here as prospective employers I have outlined my experience below in the blue section.
-                        There is also a link to my <a
-                            href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html">Portfolio</a><br>
-                        The red container contains less technical explanations for all of my friends, family and more
-                        casual visitors. <br>
-                        I also included a few things to play with in that section.
+                    <p>For those here as prospective employers my full portfolio can be seen <a
+                            href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html"> here</a>.
                         <br>
+                        A quick summary of my experience can be found in the next section, or in the left hand side on
+                        larger screens.
+                        I will also go into greater details at the bottom of the page.
+                    </p>
+                    <p>
+                        For more casual visitors I recomend the section to the right side of the screen. Skip to the
+                        orange if you are on a mobile device or other small screen.
+                        I also included a short non-technical explanation of my skills as well as some of my more
+                        entertaining projects. <br>
+                        I hope to add more soon.
+                    </p>
+                    <p>
                         If you want to know more, the bottom section has a table of my work, listed by technologies
                         used.
-
+                        <!-- need a better organization technique -->
                     </p>
                 </div>
             </div>
@@ -86,26 +108,45 @@
                 <div class="col-md left-div mr-md-1">
                     <h4><em>Employers</em></h4>
                     <!-- add a decent photo of me here -->
-                    <p>First off, thank you for your interest.
-                        If you are here looking for a prospective employee I reccomend the first link below.
-                        That should take you to a more extensive portfolio of my work as well as a deeper explaination
-                        of my capabilities.
-                        For those seeking to save time a short summary of my capabilities lies below.
-                        <br>
-                        <strong>Important Links</strong>
+                    <p>First off, thank you for your interest. <br>
+                        I am currently enrolled in a Web Development Bootcamp and will be seeking employment upon
+                        graduation at the end of July. <br>
+                    </p>
+                    <p>
+                        I am being trained as a full stack developer and thus am capable
+                        with front end as well as backend JavaScript. </p>
+                    <h5>Front end</h5>
+                    <ul>
+                        <li>JQuery, JavaScript, HTML, CSS,</li>
+                    </ul>
+                    <h5>Back end</h5>
+                    <ul>
+                        <li>Node.js, Express.js, mySQL, sequelize, MongoDB</li>
+                    </ul>
+                    <h5>Deployment and Miscellaneous</h5>
+                    <ul>
+                        <li>Successfully deployed projects to github pages and Heroku</li>
+                        <!-- <li>Comfortable with Github</li> -->
+                        <!-- Thats a bald-faced lie, no one is comfortable with github, 
+                                we only hope to tame enough of the beast that it doesnt eat our repos when our backs are turned -->
+                    </ul>
+                    <p>
+
+
+
+
+                        <strong>Important Links</strong> <em>opens in new tab</em>
                     <div class="row left-text">
                         <ol>
-                            <li><a href="">Employer Specific Portfolio Page</a></li>
-                            <li><a href=""></a>Family and Friends</a></li>
-                            <li><a href=""></a>Other Developers</a></li>
-                            <li><a href=""></a>LinkedIn</a></li>
+                            <li><a href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html">Employer Specific Portfolio Page</a></li>
+                            <li><a href="https://moustache-jake.herokuapp.com/" target="_blank">Full Stack Group Project</a></li>
+                            <li><a href="https://www.linkedin.com/in/geordin-soucie-4b0a4790/">LinkedIn</a></li>
+                            <li><a href="https://github.com/GormTheWyrm">Back To Github</a></li>
                         </ol>
                     </div>
-                    This Employer section will have links to work I've done and information on my skills.
+         
                     <!-- I need to ask career services what I should put on my career based profile- examples of working prjects yes, but what about code? -->
-                    I am a full stack developer with knowledge of HTML, Javascript, Node.JS, mySQL, noSQL MongoDB,
-                    Mongoose
-                    <br>...
+                    <!-- If you are reading these comments, Welcome to behind the scenes. Sorry about the mess -->
                     <!-- redo this with info on my experience and some links -->
 
                     </p>
@@ -142,13 +183,16 @@
             <div class="row my-sections">
                 <div class="col-lg repo-div">
                     <h4>More</h4>
+                    <p>~~This Section is Under Construction. Links may not be working right now~~</p>
+
                     <p>Here are some examples of work I have done. The name of the project is a link to the deployed
                         product. <br>
                         <a href="">Link to me Portfolio page</a></p>
                     <!-- tables with deployed products and repos side by side! -->
-                    <!-- would love to display them in gorups based on type of work down... eventually have bootcamp work separate... -->
+                    <!-- would love to display them in groups based on type of work down... eventually have bootcamp work separate... -->
                     <!-- perhaps the orignal idea was better... or this just needs some thumbnails... -->
                     <table class="table">
+                        <!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
                         <thead>
                             <tr>
                                 <th scope="col">Project Name</th>
@@ -165,6 +209,7 @@
                                     social website designed with fisherman in mind.</td>
                                 <td><a href="">Link</a></td>
                             </tr>
+                            <!-- add 1st group project here -->
                             <tr>
                                 <th scope="row"><a href="https://sheltered-savannah-95131.herokuapp.com/">Eat Da
                                         Burger</a></th>
@@ -196,9 +241,10 @@
 
 
         </div>
-            <div class="col casual-div">
-                <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
-            </div>
+        <!-- <div class="col casual-div">
+            <p> <em>If You Can Read THIS, the Page is Still Under Development</em></p>
+            I am planning to put links to my artwork, stories, 3D modelling and other miscellaneous media here
+        </div> -->
     </div>
 
     <!-- bootstrap scripts -->
@@ -223,33 +269,29 @@
 
         box1.on("click", function () {
             count1++;
-            if (count1 % 3 == 0) {
+            if (count1 % 4 == 0) {
                 box1.css("background-color", "blue");
-            } else if (count1 % 3 == 1) {
+            } else if (count1 % 4 == 1) {
                 box1.css("background-color", "red");
-            } else if (count1 % 3 == 2) {
+            } else if (count1 % 4 == 2) {
                 box1.css("background-color", "green");
+            } else {
+                box1.css("background-color", "darkslategrey");
             }
             // change % to new number and I can add more...
         })
 
-        // box2.on("click", function () {
-        //     count2++;
-        //     if (count2 % 3 == 0) {
-        //         box2.css("border-radius", "50%");
-        //     } else if (count2 % 3 == 1) {
-        //         // box2.css("height", "10px");
-        //         // box2.css("width", "20px");
-        //     } else if (count2 % 3 == 2) {
-        //         box2.css("border-radius", "0%");
-        //         box2.css("border-left", "39px solid transparent");
-        //         box2.css("border-right", "39px solid transparent");
-        //         box2.css("border-top", "80px solid blue");
-        //         // box2.css("background-color", "none");
-        //         box2.css("opacity", "1");
-        //     }
-        //     // change % to new number and I can add more...
-        // })
+        box2.on("click", function () {
+            count2++;
+            if (count2 % 2 == 0) {
+                box2.css("border-radius", "0%");
+            } else {
+                box2.css("border-radius", "50%");
+
+            }
+        })
+
+        // lets make the second square a persistent change with local storage... that could be afterwards
     </script>
 </body>
 
