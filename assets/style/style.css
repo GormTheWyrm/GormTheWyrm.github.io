@@ -120,3 +120,6 @@ a:hover{
     background-color: darkslategray;
     color: darkred;
 }
+.sm-top-mg{
+    margin-top: 5px;
+}
