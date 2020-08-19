@@ -7,57 +7,327 @@
     <title>Geordin Soucie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
-    <div class="container-fluid" style="background-color: black; min-height: 100vh;">
-        <div class="container-md" style="background-color: aliceblue; min-height: 95vh;">
+    <div class="container-fluid background">
+        <div class="my-header container-xl">
             <div class="row">
-                <div class="col-md-5">
-                    <h1>Geordin Soucie</h1>
-                    <h4>Aspiring Full Stack Engineer</h4>
-                    <h5>Education</h5>
-                    <hr>
-                    <ul>
-                        <li><p><strong>Richmond University   2020 </strong><br>   Web Development Bootcamp</p></li>
-                        <li><p><strong>Clarkson University    2014 </strong><br>   Bachelors Degree: Environmental Science and Policy</p></li>
-                    </ul>
-                    <hr>
-                    
-                </div>
-                <div class="col-md-7">
-                    <h4 style="margin-top: 2vh;">Projects</h4>
-                    <!-- should I use this side to show off my portfolio? -->
+                <div class="col-md-11">
+                    <h3 style="color: black;">Geordin Soucie, Web Development</h3>
+                    <nav class="navbar navbar-expand-lg navbar-dark"
+                        style="background-color: darkslategrey; padding-left: 15px;">
+
+                        <a class="navbar-brand" href="./index.html">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="https://github.com/GormTheWyrm" target="_blank"
+                                        target="_blank">Github Profile<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="https://www.linkedin.com/in/geordinsoucie/"
+                                        target="_blank">LinkedIn
+                                        Profile<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html"
+                                        target="_blank">Portfolio Page
+                                        <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white"
+                                        href="https://gormthewyrm.github.io/BootstrapProfilePage/index.html"
+                                        target="_blank">About Me <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link text-white"
+                                        href="./aboutMe.html"
+                                        target="_blank">(About Me Working) <span class="sr-only">(current)</span></a>
+                                    <!-- I plan to replace this -->
+                                    <!-- open link on same page once this is connected -->
+                                </li>
+                                <li>
+                                    <a class="nav-link text-muted" href="./resume.html" target="_blank">Resume
+                                        <span class="sr-only">(current)</span></a>
+                                </li>
+                                <!-- <li class="nav-item active">
+                                    <a class="nav-link" href="#" target="_blank">Other Media <span
+                                            class="sr-only">(current)</span></a>
+                                    this could open other social media or link to other online presence sites 
+                                    consider a drop down or adding links directly to navbar 
+                                </li> -->
+
+                                <!-- add game here! -->
+
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
+        </div>
+
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ START RESUME ~~~~~~~~~~~~~~~~~~~~-->
+        <div class="container">
+            <!-- Begin intro -->
+            <div class="row ">
+                <div class="col-12 welcome-div">
+                    <h3>Summary</h3>
+                    <p>
+                        Full Stack Web Developer with experience in JavaScript, CSS, React.js, and responsive web
+                        design.
+                        Recently earned a Full Stack development certificate from University of Richmond. Projects include a full stack forum app utilizing MERN stack 
+                        and a full stack forum app utilizing Express.js, mySQL and Sequelize.
+<br>
+                        REPASTE THIS ONCE THE ORIGINAL IS DONE, REMOVING THE COLOR!!
+                    </p>
+                    <!-- need to add a link for a printable version -->
+                </div>
+            </div>
+            <div class="row">
+                <!-- Begin Left Div! -->
+                <div class="col-md left-div mr-md-1">
+                    <h3 class="sm-top-mg"><em>Skills</em></h3>
+                    <!-- distinguish technical and soft skills? -->
+                    <h4>Technical Skills</h4>
+                    <h5>Languages</h5>
+                    <ul>
+                        <li>JavaScript, HTML, CSS</li>
+                        <!-- Yes, I know HTML and CSS are technically not languages but they look better here -->
+                    </ul>
+                    <h5>Front End Development</h5>
+                    <ul>
+                        <li>JavaScript, HTML, CSS</li>
+                        <li>jQuery, Bootstrap, Pure.css</li>
+                    </ul>
+                    <h5>Back End Database and Deployment</h5>
+                    <ul>
+                        <li>MERN Stack, JavaScript, Node.js, Express.js, </li>
+                        <li>MongoDB, Mongoose, MySQL, Sequalize</li>
+                        <li> Git, Github, Heroku, Github Pages</li>
+                    </ul>
+
+                    <!-- Need to mention experience with testing and Quality Assurance -->
+
+                    <h5>Educaton</h5>
+                    <ul>
+                        <li>2020 Web Development Bootcamp, University of Richmond (Richmond, VA)</li>
+                        <li>2014 Bachelor's of Science, Environmental Science and Policy, Clarkson Univerity (Potsdam, NY)</li>
+                    </ul>
+
+
+                    <h5>Experience</h5>
+                    <ul>
+                        <li>
+
+                        </li>
+                    </ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+            <h5>Most notable Job</h5>
+            <p>Squire at Medieval Times</p>
+                    <h5>Deployment and Miscellaneous</h5>
+                    <ul>
+                        <li>Successfully deployed projects to github pages and Heroku</li>
+                    </ul>
+                    <p>
+                        <strong>Important Links</strong> <em>opens in new tab</em>
+                    <div class="row left-text">
+                        <ol>
+                            <li><a href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html"
+                                    target="_blank">Employer
+                                    Specific Portfolio Page</a></li>
+                            <li><a href="http://fixmyship20.herokuapp.com/">Fixmyship React Fullstack Group Project*</a>
+                            </li>
+                            <li><a href="https://moustache-jake.herokuapp.com/" target="_blank"> RVA Fish Full Stack
+                                    Group
+                                    Project*</a></li>
+                            <li><a href="https://www.linkedin.com/in/geordinsoucie/" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/GormTheWyrm" target="_blank">Back To Github</a></li>
+                            <!-- <li>Resume</li> -->
+                        </ol>
+                    </div>
+                    <p><em>* Please note that loading times may be longer for the group projects due to the nature of
+                            heroku's free server hosting.</em></p>
+
+                    </p>
+                </div>
+                <!-- ~~~~~~~~~~~ END LEFT AND BEGIN RIGHT DIV ~~~~~~~~~~ -->
+                <div class="col-md right-div ml-md-1">
+                    <h3 class="sm-top-mg"><em>Projects</em></h3>
+                    <!-- I need to create a cool program for people to play with, some games and etc -->
+
+                    <h4>Fixmyship</h4>
+
+
+
+
+
+
+
+
+
+
+
+                    <br><br><br>
+
+<br>
+
+
+                    <p>As a full stack developer I am capable of creating what is seen on a webpage and manipulating the
+                        data behind it.</p>
+                    <p>Front end development includes HTML, CSS and Javascript. Other stuff mostly just makes it easier
+                        to use those 3 basic tools.
+                    </p>
+                    <p>
+                        HTML tells your internet browser (google chrome for example), what is on the page you visit.
+                    </p>
+                    <p>
+                        CSS is used to tell the browser <em>how</em> to display those elements.
+                    </p>
+                    <p>JavaScript allows for interaction with content by letting me make changes to the page.</p>
+                    <h5>Example</h5>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="square-sm" id="sq-1">Click Me!</div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="square-sm" id="sq-2">Click Me!</div>
+                        </div>
+                    </div>
+                    <br>
+                    <p>According to the HTML, there are two objects above this text. I used CSS to give the objects a
+                        square shape and color.
+                        Then I used Javascript to change the CSS when you click on them. <br>
+                        Go ahead, try it out.
+                    </p>
+                    <p> Backend development involves setting up servers and making the website connect to the URL.
+                        Backend development also allows data to be saved and stored in a database. This allows multiple
+                        users to access and manipulate the same data</p>
+                    <!--  
+                   <hr>
+                    <p>Backend Javascript expands upon what I can change. 
+                        It allows me to save data in a database as well as restrict who can see that data.
+                    </p>
+                    <p>Right now, the colors of the boxes reset when you reload the page. 
+                        If you click the first box and it turns red, it will not be red for the next person who visits. 
+                    </p>
+                    <p>Backend code allows me to make changes like that permanent, and on a much larger scale.</p>
+                    <p>Of course, there is a lot more it can do, but if I taught you everything here, I'd e out of a job, wouldn't I?</p>
+                     -->
+
+
+
+                    <!-- <p>Here are some additional things I've worked on, fun projects that you can play with.</p> -->
+                    <div class="row right-text">
+                        <ol>
+
+                            <!-- <li><a href="">Family and Friends</a></li> -->
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-sections">
+                <div class="col-lg repo-div">
+                    <h4>More</h4>
+                    <!-- <p>~~This Section is Under Construction~~</p> -->
+
+                    <p>Here are some examples of work I have done. The name of the project is a link to the deployed
+                        product. <br>
+                        <a href="https://gormthewyrm.github.io/BootstrapProfilePage/portfolio.html" target="_blank">Link
+                            to my Portfolio page</a></p>
+                    <!-- tables with deployed products and repos side by side! -->
+                    <!-- would love to display them in groups based on type of work down... eventually have bootcamp work separate... -->
+                    <!-- perhaps the orignal idea was better... or this just needs some thumbnails... -->
+                    <table class="table">
+                        <!-- https://getbootstrap.com/docs/4.4/content/tables/ -->
+                        <thead>
+                            <tr>
+                                <th scope="col">Project Name</th>
+                                <th scope="col">Type of Project</th>
+                                <th scope="col">Short Description</th>
+                                <th scope="col">Link to Repo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- open these in new tabs -->
+                            <tr>
+                                <th scope="row"><a href="https://moustache-jake.herokuapp.com/">Fish RVA</a></th>
+                                <td>Full Stack Group Project</td>
+                                <td>Our team had two weeks to create a full stack project. We chose to create a small
+                                    social website designed with fisherman in mind.</td>
+                                <!-- Need to patch this project up a bit. -->
+                                <td><a href="https://github.com/GormTheWyrm/BootcampProject2">Link</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://gormthewyrm.github.io/FirstBootcampProject/">About
+                                        Time</a></th>
+                                <td>First Front End Group Project</td>
+                                <td>Bootcamp assignment to create a front end application deployed on github pages.
+                                    We created a world clock app that allows users to pin a location on a spinning
+                                    globe. Project used WebGL Earth, TimeZone DB and Opencage Geocoding APIs.</td>
+                                <td><a href="https://github.com/GormTheWyrm/FirstBootcampProject">Link</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://gormthewyrm.github.io/CalendarHomework/">Dayplanner
+                                        App</a></th>
+                                <td>Front End, Local Data</td>
+                                <td>This simple app allows users to add notes to rows correlating to different hours of
+                                    the day. The hours are color coded based on the current time. Saves data in
+                                    LocalStorage.</td>
+                                <td><a href="https://github.com/GormTheWyrm/CalendarHomework">Link</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://gormthewyrm.github.io/WeatherApp/">Weather App</a></th>
+                                <td>Front End, Local Data</td>
+                                <td>This simple app allows users to see the forecast for specific cities. Users can
+                                    search and add cities to their dashboard. Saves data in LocalStorage.</td>
+                                <td><a href="https://github.com/GormTheWyrm/WeatherApp">Link</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
         </div>
 
 
 
 
-    </div>
 
 
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-    <script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script>
         //JS goes here!
 
 
-    </script>
+        </script>
 </body>
 
 </html>

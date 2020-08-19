@@ -22,6 +22,7 @@ li{
 /* background-color: dimgray; */
 /* background-color: #4aaaa5; */
 /* border: darkslategray solid; */
+color: white;
 background-color: peru;
 /* margin-top: 2vh; */
 padding-top: 2vh;
@@ -40,7 +41,7 @@ margin-bottom: 1vh;
 .left-div{
     background-color: rgb(82, 146, 185) ;
     background-color: rgb(51, 134, 185) ;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     background-color: darkslategrey;
     color: white;
     
@@ -103,7 +104,8 @@ background-color: plum;
 a:link, a:visited, a {
     /* color: #4aaaa5; */
     /* color: #575753; */
-    color: inherit;
+    /* color: inherit !important; */
+    /* this overwrites the  */
     text-decoration: none;
     font-weight: 500;
 }
@@ -122,4 +124,27 @@ a:hover{
 }
 .sm-top-mg{
     margin-top: 5px;
+}
+.active{
+    color: peru !important;
+    font-weight: 700 !important;
+}
+.project-li{
+    margin-top: 6vh;
+    /* border: solid 1px black; */
+    /* padding: 5px; */
+    /* margin: 25px; */
+}
+.left-span{
+    /* display: inline-block;  */
+    margin-left: 3vw;
+    float: left;
+}
+.right-span{
+    float: right; 
+    margin-right: 3vw;
+}
+.low-p{
+    margin-bottom: 3px;
+    /* margin-bottom: .1vh; */
 }
