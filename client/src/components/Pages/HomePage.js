@@ -115,7 +115,7 @@ class HomePage extends React.Component {
                                 <li>
                                     Check out the <a href="https://gormthewyrm.github.io/react-portfolio/">portfolio page</a> for a list of coding projects.
                         </li>
-                                <li>
+                                {/* <li>
                                     There are no games available at this time.
                         </li>
                                 <li>
@@ -123,7 +123,7 @@ class HomePage extends React.Component {
                         </li>
                                 <li>
                                     The art gallery has not been set up yet. Geordin is still relearning Blender and rigging.
-                        </li>
+                        </li> */}
 
                             </ul>
 
