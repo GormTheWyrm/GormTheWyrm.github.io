@@ -110,7 +110,7 @@ class HomePage extends React.Component {
                         <a href="sca.org" style={{ color: "aliceblue" }}> the Society of Creative Anachronism</a>.
                     </p>
 
-                            <h5>Art and Projects</h5>
+                            <h5>Projects</h5>
                             <ul>
                                 <li>
                                     Check out the <a href="https://gormthewyrm.github.io/react-portfolio/">portfolio page</a> for a list of coding projects.
