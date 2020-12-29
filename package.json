@@ -1,0 +1,22 @@
+{
+  "name": "gormthewyrm.github.io",
+  "version": "1.0.0",
+  "description": "Geordin Soucie's Github Portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd client && npm start",
+    "build": "cd client && npm build",
+    "deploy": "cd client && npm deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GormTheWyrm/GormTheWyrm.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GormTheWyrm/GormTheWyrm.github.io/issues"
+  },
+  "homepage": "https://github.com/GormTheWyrm/GormTheWyrm.github.io#readme"
+}
